@@ -19,4 +19,8 @@ function fetchUsingXHR(){
     } 
 }
 
+function displayResults(posts){
+
+}
+
 fetchUsingXHR()
