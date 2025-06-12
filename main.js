@@ -10,6 +10,7 @@ function fetchUsingXHR() {
     xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts')
     xhr.responseType = 'json';
     xhr.send();
+    
 
     xhr.onload = () => {
         if(xhr.status === 200){
